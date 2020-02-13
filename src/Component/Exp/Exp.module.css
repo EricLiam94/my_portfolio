@@ -1,0 +1,28 @@
+.container {
+  padding: 20px 10%;
+}
+
+.subtitle {
+  font-size: 15px;
+  background-color: rgb(74, 187, 83);
+  border-radius: 10px;
+  width: fit-content;
+  padding: 2px 8px;
+  margin: 10px 0;
+  box-shadow: 2px 2px 5px #888888;
+  color: rgb(253, 253, 253);
+  font-weight: 400;
+}
+
+ul {
+  list-style-image: cross-fade();
+  padding: 0 10px;
+}
+
+.icon {
+  position: absolute;
+  left: 50%;
+  color: white;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

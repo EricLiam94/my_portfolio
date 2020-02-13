@@ -1,0 +1,32 @@
+.img {
+  border-radius: 50%;
+  margin: 10px 20px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.container {
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  color: whitesmoke;
+}
+
+.hobby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  font-weight: 550;
+}
+
+.name {
+  color: whitesmoke;
+  text-transform: capitalize;
+  text-shadow: 2px 4px 4px #9be8ee;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), to(white));
+}

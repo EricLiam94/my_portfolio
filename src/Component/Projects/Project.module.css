@@ -1,0 +1,105 @@
+.img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: block;
+  position: relative;
+}
+
+.imgcon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.warn {
+  margin: 40px auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  width: fit-content;
+  color: rgb(255, 255, 255);
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 550;
+  text-align: center;
+}
+
+.back {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: white;
+  height: 100%;
+  transform: translateY(-50%);
+  background: linear-gradient(45deg, #64a1e6, #3fa761);
+  padding: 5%;
+  opacity: 0;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+
+  transition: 0.8s ease-in-out;
+}
+
+.imgcon:hover .back {
+  opacity: 1;
+}
+
+.project {
+  width: 25%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin: 40px;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+}
+
+.title {
+  width: auto;
+  padding: 10px 0;
+  text-align: center;
+  height: 100%;
+  margin: 0;
+
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  position: relative;
+}
+/* .title:before {
+  content: "Click to Redirect";
+  background-color: rgb(28, 28, 34);
+  top: 0;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  padding: auto;
+
+  color: white;
+  width: 100%;
+  opacity: 0;
+  transition: 0.6s linear;
+}
+
+.title:hover::before {
+  opacity: 1;
+} */
+
+.project {
+  margin: 20px;
+  border-radius: 5px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 2px 2px 8px black;
+}
