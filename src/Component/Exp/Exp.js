@@ -48,7 +48,7 @@ const Exp = () => {
         >
           <div>
             <h3 className="vertical-timeline-element-title">
-              JAVA Bootcamp Volunteer:
+              Java Bootcamp Volunteer:
             </h3>
             <h4 className={style.subtitle}>Monash</h4> Tutoring and Motivating
             freshmen basic JAVA programing
@@ -81,7 +81,7 @@ const Exp = () => {
           icon={<Icon type="study" />}
         >
           <h3 className="vertical-timeline-element-title">
-            Bachlor of Polymer Materials
+            Bachelor of Polymer Materials
           </h3>
           <h4 className={style.subtitle}>SUES</h4>
         </VerticalTimelineElement>

@@ -20,8 +20,8 @@ const Hobbies = () => {
 
   return (
     <div id="hobby" className={style.container}>
-      {hobbies.map(hobby => (
-        <div className={style.hobby}>
+      {hobbies.map((hobby, idx) => (
+        <div key={idx} className={style.hobby}>
           <img className={style.img} src={hobby.url} />
           <span className={style.name}>{hobby.name} </span>
         </div>

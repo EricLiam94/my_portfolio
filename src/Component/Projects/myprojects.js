@@ -9,14 +9,13 @@ var myprojects = [
   {
     img: require("./foodtyro.png"),
     title: "Expire-date Tracker ",
-    desc:
-      "An android application used to track the best-before date of fresh food.",
+    desc: "An android application tracks the best-before date of fresh food.",
     url: "http://foodtyro.tk/"
   },
   {
     img: require("./pokemon.png"),
     title: "Pokemon Website",
-    desc: "A full-stack website used to search pokemon statistic",
+    desc: "A full-stack website help players search pokemon statistic",
     url: "http://pokemon-eric.herokuapp.com/"
   },
   {

@@ -35,5 +35,6 @@
   },
   "devDependencies": {
     "url-loader": "^3.0.0"
-  }
+  },
+  "homepage": "."
 }

@@ -4,6 +4,21 @@
   width: 100px;
   height: 100px;
   object-fit: cover;
+  box-shadow: 3px 3px 8px grey;
+}
+
+.img:hover {
+  animation: rotate 1.4s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateZ(0);
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
 }
 
 .container {
@@ -13,6 +28,8 @@
   align-items: center;
   background-color: #000;
   color: whitesmoke;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
 }
 
 .hobby {
@@ -20,6 +37,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 10px auto;
   color: black;
   font-weight: 550;
 }

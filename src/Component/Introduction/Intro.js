@@ -17,6 +17,15 @@ const Intro = () => {
           <li>Experienced in an Agile project with an international team.</li>
         </ul>
       </div>
+      <div className={style.ctitle}> Career Planning </div>
+      <div className={style.career}>
+        {" "}
+        For now, as a graduate, I would like to try a variety of developing
+        roles to expand my knowledge pool and network, and in the next two
+        years, I am intended to apply for Permanent Residency and also take AWS
+        solution architect certification. But my ultimate goal is to become an
+        Algorithm Engineer.
+      </div>
     </div>
   );
 };

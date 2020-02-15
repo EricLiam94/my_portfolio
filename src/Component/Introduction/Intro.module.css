@@ -1,25 +1,62 @@
 .intro {
   padding: 50px 10%;
   background-color: black;
-}
+  font-size: 19px;
+  font-weight: 490;
 
+  height: fit-content;
+  position: relative;
+}
+.ctitle,
 .title {
   font-family: "Times New Roman", Times, serif;
-  font-size: 25px;
-  margin-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 30px;
   color: rgb(238, 237, 237);
   font-weight: 600;
+}
+
+.ctitle {
+  text-align: right;
+  margin-top: 40px;
+}
+
+.career {
+  width: 45%;
+  position: relative;
+  margin-right: 0;
+  margin-left: auto;
+  line-height: 32px;
+  border-right: 2px solid;
+  border-image: linear-gradient(to bottom, rgb(0, 195, 255), rgba(0, 0, 0, 0)) 1
+    100%;
+  padding-right: 20px;
+  color: rgb(238, 237, 237);
 }
 
 .list {
   list-style: url();
   color: rgb(238, 237, 237);
+  border-width: 0;
+  padding-left: 20px;
+  border-left: 2px solid;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+  list-style: none;
 }
+
 .list li {
   transition: 0.4s ease-in-out;
   padding: 2px 5px;
+  margin: 5px;
 }
 
 .list li:hover {
   background-color: rgba(60, 60, 60, 0.8);
+}
+
+@media (max-width: 720px) {
+  .career {
+    width: fit-content;
+  }
 }

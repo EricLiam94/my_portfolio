@@ -6,6 +6,7 @@ const ImgBlock = ({ url, title }) => {
   return (
     <div className={style.container} style={myStyle}>
       <span className={style.title}>{title}</span>
+      <div className={style.bg}> </div>
     </div>
   );
 };

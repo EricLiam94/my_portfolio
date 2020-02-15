@@ -22,13 +22,20 @@ const Technologies = () => {
     "Google Cloud",
     "Heroku",
     "Docker",
-    "Android"
+    "Android",
+    "CSS",
+    "SCSS",
+    "Bootstrap",
+    "Webpack"
   ];
 
   return (
     <div id="skill" className={style.container}>
-      {techList.map(item => (
-        <span className={style.tech}> {item} </span>
+      {techList.map((item, idx) => (
+        <span key={idx} className={style.tech}>
+          {" "}
+          {item}{" "}
+        </span>
       ))}
     </div>
   );
