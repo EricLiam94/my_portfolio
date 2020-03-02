@@ -10,8 +10,11 @@
 }
 
 .imgcon {
+  flex: 2;
   position: relative;
   display: flex;
+
+  padding: 2%;
   justify-content: center;
   align-items: center;
 }
@@ -29,71 +32,97 @@
   text-align: center;
 }
 
-.back {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  color: white;
-  height: 100%;
-  transform: translateY(-50%);
-  background: linear-gradient(45deg, #64a1e6, #3fa761);
-  padding: 5%;
-  opacity: 0;
-  -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+/Edge */
-  user-select: none; /* Standard */
-
-  transition: 0.8s ease-in-out;
-}
-
-.imgcon:hover .back {
-  opacity: 1;
-}
-
-.project {
-  width: 25%;
-}
-
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   overflow: hidden;
+  align-self: stretch;
   margin: 40px;
   margin-bottom: 0;
   padding-bottom: 40px;
 }
 
-.title {
-  padding: 10px 0;
+.content {
+  padding: 10px;
   text-align: center;
-  height: 100%;
   margin: 0;
-  width: 100%;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
   transition: 0.4s ease-in-out;
   position: relative;
 }
 
-.title a {
-  text-decoration: none;
+.content h1 {
+  margin: 10px;
+  margin-bottom: 20px;
   color: black;
 }
 
-.project {
+.content ul {
+  list-style: "-";
+}
+
+.redirect {
+  margin: 30px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin: auto;
+  margin-right: 20px;
+  transition: 0.4s ease-in-out;
+}
+
+.redirect:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+.content ul li {
+  margin: 5px;
+}
+.content p {
+  font-size: 17px;
+  margin: 5px 0;
+}
+
+.content h3 {
   margin: 20px;
+}
+.project {
+  width: 90%;
+  margin: 60px 20px;
+
+  height: fit-content;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
   border-radius: 5px;
-  background-color: white;
   overflow: hidden;
-  box-shadow: 2px 2px 8px black;
+  box-shadow: 0px 1px 5px -3px rgb(104, 103, 103);
+}
+
+.project:nth-child(even) {
+  flex-direction: row-reverse;
 }
 
 @media (max-width: 720px) {
-  .project {
-    width: 90%;
+  .project,
+  .project:nth-child(even) {
+    width: 100%;
+    flex-direction: column;
   }
+
+  .container {
+    margin: 20px 5px;
+  }
+
   .warn {
     margin: 30px 30px;
   }

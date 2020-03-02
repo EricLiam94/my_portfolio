@@ -26,12 +26,12 @@ function App() {
     <div className="App">
       <Header />
       <Intro />
-      <ImageBlock title="What I know" url={techUrl} />
-      <Technologies />
       <ImageBlock title="My projects" url={projectUrl} />
       <Projects />
       <ImageBlock title="My Experience" url={expUrl} />
       <Exp />
+      <ImageBlock title="What I know" url={techUrl} />
+      <Technologies />
       <ImageBlock title="My Hobbies" url={hobbiesUrl} />
       <Hobbies />
       <ImageBlock title="Contact" url={contactUrl} />

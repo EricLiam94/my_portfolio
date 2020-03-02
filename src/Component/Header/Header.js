@@ -10,7 +10,8 @@ const Header = () => {
     <div className={style.container}>
       <div className={style.title}>
         {" "}
-        <span> Eric's Portfolio </span>
+        <span>Jingxin Huang </span> | <span> Eric</span>
+        <div className={style.loc}> Melbourne </div>
         <div onClick={clickHandler} className={style.icon}>
           <i className="fas fa-mobile-alt"></i>
           <i className="fas fa-envelope"></i>

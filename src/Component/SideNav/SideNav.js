@@ -21,12 +21,6 @@ const Sidebar = () => {
             </a>{" "}
           </li>
           <li>
-            <a href="#skill" className={style.elem}>
-              <i className="fas fa-terminal"></i>
-              <span>Skills </span>
-            </a>{" "}
-          </li>
-          <li>
             <a href="#project" className={style.elem}>
               <i className="fas fa-tasks"></i>
               <span>Projects </span>
@@ -38,6 +32,13 @@ const Sidebar = () => {
               <span>Experience </span>
             </a>{" "}
           </li>
+          <li>
+            <a href="#skill" className={style.elem}>
+              <i className="fas fa-terminal"></i>
+              <span>Skills </span>
+            </a>{" "}
+          </li>
+
           <li>
             <a href="#hobby" className={style.elem}>
               <i className="fas fa-running"></i>
