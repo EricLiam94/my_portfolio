@@ -18,6 +18,7 @@ const Projects = () => {
             desc={pro.desc}
             url={pro.url}
             tech={pro.tech}
+            github={pro.github}
           />
         ))}
       </div>

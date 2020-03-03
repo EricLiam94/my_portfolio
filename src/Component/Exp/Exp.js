@@ -5,7 +5,6 @@ import {
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import bg from "../Header/space.jpg";
 import Icon from "./Icon";
 
 const Exp = () => {

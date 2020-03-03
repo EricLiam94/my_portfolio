@@ -2,7 +2,6 @@ import React from "react";
 import style from "./Header.module.css";
 
 const Header = () => {
-  const img = require("./space.jpg");
   const clickHandler = () => {
     window.scrollTo(0, document.body.scrollHeight);
   };

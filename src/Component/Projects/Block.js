@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Project.module.css";
-const Block = ({ img, title, desc, url, tech }) => {
+const Block = ({ img, title, desc, url, tech, github }) => {
   return (
     <div className={style.project}>
       <div className={style.imgcon}>
@@ -15,10 +15,18 @@ const Block = ({ img, title, desc, url, tech }) => {
             <li>{i} </li>
           ))}
         </ul>
-        <a href={url} target="_blank" className={style.redirect}>
-          {" "}
-          View it <i className="fas fa-hand-point-right"></i>{" "}
-        </a>
+        <div style={{ marginTop: "20px" }}>
+          {url && (
+            <a href={url} target="_blank" className={style.redirect}>
+              <i class="fab fa-internet-explorer"></i>
+            </a>
+          )}
+          {github && (
+            <a href={github} target="_blank" className={style.redirect}>
+              <i class="fab fa-github-alt"></i>
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );
