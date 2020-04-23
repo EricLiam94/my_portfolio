@@ -5,7 +5,7 @@ var myprojects = [
     desc: "A online portfolio records my experience",
     url: "http://www.ericode.tk",
     tech: ["React.js", "AWS", "JEST"],
-    github: "https://github.com/EricLiam94/my_portfolio"
+    github: "https://github.com/EricLiam94/my_portfolio",
   },
   {
     img: require("./blog.png"),
@@ -13,7 +13,7 @@ var myprojects = [
     desc:
       "A personal blog used to share idea and knowledge, It is built by Hexo.",
     url: "http://ericliam94.github.io/",
-    tech: ["Node.js", "JavaScript", "Hexo", "Html", "Markdown"]
+    tech: ["Node.js", "JavaScript", "Hexo", "Html", "Markdown"],
   },
   {
     img: require("./foodtyro.png"),
@@ -29,9 +29,42 @@ var myprojects = [
       "Maven",
       "Agile",
       "Firebase",
-      "Google API"
+      "Google API",
     ],
-    github: "https://github.com/CzynJay/FIT5120_Project"
+    github: "https://github.com/CzynJay/FIT5120_Project",
+  },
+  {
+    img: require("./covid19.png"),
+    title: "Covid-19 website",
+    desc:
+      "A website visualizes covid-19 data including geo data and time series data.",
+    tech: ["React.js", "Apexchart", "map-gl", "AWS"],
+    github: "https://github.com/EricLiam94/covid-19-global",
+    url: "https://bit.ly/covid-19-eric",
+  },
+  {
+    img: require("./algoVisual.gif"),
+    title: "Algorithm Visualizer",
+    desc: "A website visualizes algorithm",
+    tech: ["React", "Git", "CSS"],
+    github: "https://github.com/EricLiam94/algorithmVisualizer",
+    url: "https://vigilant-keller-b78418.netlify.app/",
+  },
+  {
+    img: require("./electron.png"),
+    title: "Simple Screen Recorder",
+    desc:
+      "A simple full-stack streaming app that allows to capture your computer and stream online (website client)",
+    tech: [
+      "JavaScript",
+      "Electron",
+      "Node.js",
+      "CSS",
+      "HTML",
+      "socket.io",
+      "Express",
+    ],
+    github: "https://github.com/EricLiam94/ScreenRecorder",
   },
   {
     img: require("./pokemon.png"),
@@ -39,7 +72,7 @@ var myprojects = [
     desc: "A full-stack website help players search pokemon statistic",
     url: "http://pokemon-eric.herokuapp.com/",
     tech: ["React.js", "Apexcharts", "Bootstrap", "Heroku", "REST API"],
-    github: "https://github.com/EricLiam94/pokemon_website"
+    github: "https://github.com/EricLiam94/pokemon_website",
   },
   {
     img: require("./shopping.png"),
@@ -48,7 +81,7 @@ var myprojects = [
       "A simple shopping website that implemented credential check, Redux is implemented to manage global state",
     url: "http://shoppinglist-eric.herokuapp.com/",
     tech: ["React.js", "Express", "Redux", "JWT", "bcrypt", "axios", "MongoDB"],
-    github: "https://github.com/EricLiam94/shoppingList"
+    github: "https://github.com/EricLiam94/shoppingList",
   },
   {
     img: require("./virusvisual.png"),
@@ -57,8 +90,8 @@ var myprojects = [
       "A responsive website visualizes the information about CoronaVirus ourbreaked recently",
     url: "https://virusvisual.herokuapp.com/",
     tech: ["React.js", "JEST", "REST API", "Heroku"],
-    github: "https://github.com/EricLiam94/VirusVisual"
-  }
+    github: "https://github.com/EricLiam94/VirusVisual",
+  },
 ];
 
 export default myprojects;

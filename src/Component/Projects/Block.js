@@ -9,7 +9,8 @@ const Block = ({ img, title, desc, url, tech, github }) => {
       <div className={style.content}>
         <h1>{title} </h1>
         <p>{desc} </p>
-        <h3>Tech used: </h3>
+        <h3>Technologies</h3>
+        <hr className={style.green} />
         <ul className={style.tech}>
           {tech.map(i => (
             <li>{i} </li>

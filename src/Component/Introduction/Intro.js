@@ -22,7 +22,7 @@ const Intro = () => {
         {" "}
         For now, as a graduate, I would like to try a variety of developing
         roles to expand my knowledge pool and network, and in the next two
-        years, I am intended to apply for Permanent Residency and also take AWS
+        years, I intend to apply for Permanent Residency and also take AWS
         solution architect certification. But my ultimate goal is to become an
         Algorithm Engineer.
       </div>

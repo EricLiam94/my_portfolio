@@ -14,6 +14,7 @@ const Technologies = () => {
     "Spark",
     "ML",
     "R",
+    "TypeScript",
     "Git",
     "Redis",
     "Redux",
@@ -25,6 +26,7 @@ const Technologies = () => {
     "Android",
     "CSS",
     "SCSS",
+    "Electron",
     "Bootstrap",
     "Webpack"
   ];

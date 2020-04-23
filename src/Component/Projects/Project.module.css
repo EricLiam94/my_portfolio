@@ -64,7 +64,22 @@
 }
 
 .content ul {
-  list-style: "-";
+  list-style: none;
+}
+
+.green {
+  border: 0;
+  clear: both;
+  display: block;
+  height: 1px;
+  margin: 10px;
+  text-align: center;
+  width: 100%;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(15, 55, 255, 0) 75%
+  );
 }
 
 .redirect {
@@ -91,7 +106,7 @@
 }
 
 .content h3 {
-  margin: 20px;
+  margin-top: 20px;
 }
 .project {
   width: 90%;
@@ -104,7 +119,11 @@
   align-items: center;
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 0px 1px 5px -3px rgb(104, 103, 103);
+}
+
+.project:hover {
+  border-bottom: 1px solid transparent;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 .project:nth-child(even) {
