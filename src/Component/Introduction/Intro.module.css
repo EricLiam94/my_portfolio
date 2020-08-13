@@ -1,11 +1,11 @@
 .intro {
   padding: 50px 10%;
-  background-color: black;
+  opacity: 1;
   font-size: 19px;
   font-weight: 490;
-
   height: fit-content;
-  position: relative;
+  position: absolute;
+  top: 100vh;
 }
 .ctitle,
 .title {

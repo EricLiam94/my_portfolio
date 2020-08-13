@@ -1,8 +1,21 @@
 import React from "react";
 import style from "./Project.module.css";
+import { motion } from "framer-motion";
 const Block = ({ img, title, desc, url, tech, github }) => {
   return (
-    <div className={style.project}>
+    <motion.div
+      className={style.project}
+      whileHover={{
+        position: "relative",
+        zIndex: 1,
+        background: "white",
+
+        x: [0, 10, -10, 0],
+        transition: {
+          duration: 0.2,
+        },
+      }}
+    >
       <div className={style.imgcon}>
         <img className={style.img} src={img} />
       </div>
@@ -12,7 +25,7 @@ const Block = ({ img, title, desc, url, tech, github }) => {
         <h3>Technologies</h3>
         <hr className={style.green} />
         <ul className={style.tech}>
-          {tech.map(i => (
+          {tech.map((i) => (
             <li>{i} </li>
           ))}
         </ul>
@@ -29,7 +42,7 @@ const Block = ({ img, title, desc, url, tech, github }) => {
           )}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

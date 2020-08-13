@@ -1,9 +1,20 @@
 import React from "react";
 import style from "./Intro.module.css";
+import { motion } from "framer-motion";
+
+const variants = {
+  hidden: { opacity: 0, x: -505 },
+  visible: { opacity: 1, x: 0, transition: { duration: 3, ease: "easeOut" } },
+};
 
 const Intro = () => {
   return (
-    <div className={style.intro}>
+    <motion.div
+      initial="hidden"
+      animate="visible"
+      variants={variants}
+      className={style.intro}
+    >
       <div className={style.title}>Introduction</div>
       <div>
         <ul className={style.list}>
@@ -17,16 +28,7 @@ const Intro = () => {
           <li>Experienced in an Agile project with an international team.</li>
         </ul>
       </div>
-      <div className={style.ctitle}> Career Planning </div>
-      <div className={style.career}>
-        {" "}
-        For now, as a graduate, I would like to try a variety of developing
-        roles to expand my knowledge pool and network, and in the next two
-        years, I intend to apply for Permanent Residency and also take AWS
-        solution architect certification. But my ultimate goal is to become an
-        Algorithm Engineer.
-      </div>
-    </div>
+    </motion.div>
   );
 };
 

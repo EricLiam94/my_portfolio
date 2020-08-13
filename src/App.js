@@ -10,6 +10,7 @@ import Hobbies from "./Component/Hobby/Hobbies";
 import Sidebar from "./Component/SideNav/SideNav";
 import Contact from "./Component/Contact/Contact";
 import "./App.css";
+import Three from "./Component/Three";
 
 function App() {
   const contactUrl =
@@ -24,8 +25,8 @@ function App() {
     "https://images.unsplash.com/photo-1556168505-d00e911d52eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80";
   return (
     <div className="App">
-      <Header />
-      <Intro />
+      <Three />
+
       <ImageBlock title="My projects" url={projectUrl} />
       <Projects />
       <ImageBlock title="My Experience" url={expUrl} />
