@@ -8,6 +8,13 @@ var myprojects = [
     github: "https://github.com/EricLiam94/my_portfolio",
   },
   {
+    img: require("./Breakingbad.gif"),
+    title: "Breaking Bad",
+    desc: "A website related to the TV drama Breaking bad",
+    url: "https://heuristic-euclid-604ac9.netlify.app",
+    tech: ["React", "Framer Motion", "Styled Component", "Webpack"]
+  },
+  {
     img: require("./blog.png"),
     title: "Personal Blog",
     desc:

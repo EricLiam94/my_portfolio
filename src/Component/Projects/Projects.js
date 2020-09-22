@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Project.module.css";
 import projects from "./myprojects";
 import Block from "./Block";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
