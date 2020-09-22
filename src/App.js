@@ -1,7 +1,4 @@
 import React from "react";
-
-import Header from "./Component/Header/Header";
-import Intro from "./Component/Introduction/Intro";
 import ImageBlock from "./Component/ImgBlock/ImgBlock";
 import Technologies from "./Component/Technologies/Technologies";
 import Exp from "./Component/Exp/Exp";

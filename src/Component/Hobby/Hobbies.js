@@ -22,7 +22,7 @@ const Hobbies = () => {
     <div id="hobby" className={style.container}>
       {hobbies.map((hobby, idx) => (
         <div key={idx} className={style.hobby}>
-          <img className={style.img} src={hobby.url} />
+          <img className={style.img} src={hobby.url} alt="hobby" />
           <span className={style.name}>{hobby.name} </span>
         </div>
       ))}
