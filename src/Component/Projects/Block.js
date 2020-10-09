@@ -1,23 +1,33 @@
 import React from "react";
 import style from "./Project.module.css";
 import { motion } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
+
+
+const variants = {
+  hidden: {
+
+    y: 80
+  },
+  show: {
+
+    y: 0
+  }
+}
+
 const Block = ({ img, title, desc, url, tech, github }) => {
+
+  const [ref, inView, entry] = useInView({ threshold: 0 });
   return (
     <motion.div
       className={style.project}
-      whileHover={{
-        position: "relative",
-        zIndex: 1,
-        background: "white",
-
-        x: [0, 10, -10, 0],
-        transition: {
-          duration: 0.2,
-        },
-      }}
+      variants={variants}
+      initial="hidden"
+      ref={ref}
+      animate={inView ? "show" : "hidden"}
     >
       <div className={style.imgcon}>
-        <img className={style.img} src={img} />
+        <img className={style.img} src={img} alt="image" />
       </div>
       <div className={style.content}>
         <h1>{title} </h1>

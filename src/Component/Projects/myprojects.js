@@ -8,6 +8,15 @@ var myprojects = [
     github: "https://github.com/EricLiam94/my_portfolio",
   },
   {
+    img: require("./todo.png"),
+    title: "clone of kanban",
+    desc:
+      "A responsive clone website of kanban with drag and drop functionality.",
+    url: "https://ericode-todo.netlify.app/",
+    tech: ["React.js", "Firebase", "REST API", "Redux", "React-dom-router"],
+    github: "https://github.com/EricLiam94/TodoList",
+  },
+  {
     img: require("./Breakingbad.png"),
     title: "Breaking Bad",
     desc: "A website related to the TV drama Breaking bad",
@@ -40,6 +49,7 @@ var myprojects = [
     ],
     github: "https://github.com/CzynJay/FIT5120_Project",
   },
+
   {
     img: require("./covid19.png"),
     title: "Covid-19 website",
@@ -74,14 +84,6 @@ var myprojects = [
     github: "https://github.com/EricLiam94/ScreenRecorder",
   },
   {
-    img: require("./pokemon.png"),
-    title: "Pokemon Website",
-    desc: "A full-stack website help players search pokemon statistic",
-    url: "http://pokemon-eric.herokuapp.com/",
-    tech: ["React.js", "Apexcharts", "Bootstrap", "Heroku", "REST API"],
-    github: "https://github.com/EricLiam94/pokemon_website",
-  },
-  {
     img: require("./shopping.png"),
     title: "Shopping management platform",
     desc:
@@ -90,15 +92,7 @@ var myprojects = [
     tech: ["React.js", "Express", "Redux", "JWT", "bcrypt", "axios", "MongoDB"],
     github: "https://github.com/EricLiam94/shoppingList",
   },
-  {
-    img: require("./virusvisual.png"),
-    title: "VirusVisual website",
-    desc:
-      "A responsive website visualizes the information about CoronaVirus ourbreaked recently",
-    url: "https://virusvisual.herokuapp.com/",
-    tech: ["React.js", "JEST", "REST API", "Heroku"],
-    github: "https://github.com/EricLiam94/VirusVisual",
-  },
+
 ];
 
 export default myprojects;
