@@ -17,7 +17,7 @@
     "react-three-fiber": "^4.2.20",
     "react-vertical-timeline-component": "^2.5.0",
     "rellax": "^1.12.1",
-    "three": "^0.119.1"
+    "three": "^0.125.0"
   },
   "scripts": {
     "start": "react-scripts start",
